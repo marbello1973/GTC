@@ -58,7 +58,7 @@ spring:
 ### 1. Crear un Estudiante
 
 - **Método**: `POST`
-- **URL**: `/estudiantes`
+- **URL**: `http://localhost:8080/estudiantes`
 - **Descripción**: Permite crear un nuevo registro de estudiante.
 - **Cuerpo de la Solicitud** (Ejemplo):
 
@@ -76,10 +76,10 @@ spring:
   }
   ```
 
-### 2. Actualizar un Estudiante por Grado
+### 2. Escriba un SQL que permita obtener información de los estudiantes que pertenezcan al último grado (Grado 11).
 
-- **Método**: `PUT`
-- **URL**: `/estudiantes/grado/{grado}`
+- **Método**: `GET`
+- **URL**: `[/estudiantes/grado/{grado}](http://localhost:8080/estudiantes/grado/11)`
 - **Descripción**: Actualiza los datos de un estudiante en un grado específico.
 - **Cuerpo de la Solicitud** (Ejemplo):
 
@@ -97,16 +97,10 @@ spring:
   }
   ```
 
-### 3. Obtener Estudiantes por Grado
-
-- **Método**: `GET`
-- **URL**: `/estudiantes/grado/{grado}`
-- **Descripción**: Obtiene una lista de todos los estudiantes en un grado específico.
-
 ### 4. Obtener Estudiantes por Rango de Edades
 
 - **Método**: `GET`
-- **URL**: `/estudiantes/edad/{min}-{max}`
+- **URL**: `[/estudiantes/edad/{min}-{max}](http://localhost:8080/estudiantes/edad/15-17)`
 - **Descripción**: Obtiene una lista de estudiantes dentro de un rango de edades.
 
 ### 5. Obtener Todos los Estudiantes
