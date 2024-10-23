@@ -1,0 +1,93 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Institucion",
+    "collectionId": "28178339-9cd2-4696-bb15-ef34f0729520",
+    "dateExported": "2024-10-23T21:57:53.812Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1ca936a2-4a59-4902-8e16-4af23f48b161",
+            "colId": "28178339-9cd2-4696-bb15-ef34f0729520",
+            "containerId": "",
+            "name": "post",
+            "url": "http://localhost:8080/estudiantes",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-10-23T20:50:52.854Z",
+            "modified": "2024-10-23T21:56:46.673Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"jose\",\n  \"apellido\":\"perez\",\n  \"edad\":15,\n  \"fecha_nacimiento\": \"2024-12-25\",\n  \"email\":\"david@gmail.com\",\n  \"grado_actual\":11,\n  \"telefono_fijo\": 3333333,\n  \"telefono_celular\":30445698,\n  \"estado\": true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bf8be57a-81ef-4488-8c11-80a8b51f6d66",
+            "colId": "28178339-9cd2-4696-bb15-ef34f0729520",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:8080/estudiantes/grado/11",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-10-23T21:16:25.348Z",
+            "modified": "2024-10-23T21:47:59.289Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"jois\",\n  \"apellido\":\"zabala\",\n  \"edad\":30,\n  \"fecha_nacimiento\": \"2024-12-25\",\n  \"email\":\"david@gmail.com\",\n  \"grado_actual\":11,\n  \"telefono_fijo\": 3333333,\n  \"telefono_celular\":30445698,\n  \"estado\": true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6340fc13-54b0-4a29-a203-a0de334c62a7",
+            "colId": "28178339-9cd2-4696-bb15-ef34f0729520",
+            "containerId": "",
+            "name": "grado11",
+            "url": "http://localhost:8080/estudiantes/grado/11",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-23T21:49:27.859Z",
+            "modified": "2024-10-23T21:49:36.050Z",
+            "headers": []
+        },
+        {
+            "_id": "2d302a71-7cc7-45af-a4fc-687acff116a5",
+            "colId": "28178339-9cd2-4696-bb15-ef34f0729520",
+            "containerId": "",
+            "name": "edades 15-17",
+            "url": "http://localhost:8080/estudiantes/edad/15-17",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-10-23T21:55:56.831Z",
+            "modified": "2024-10-23T21:56:15.845Z",
+            "headers": []
+        },
+        {
+            "_id": "fc96191c-a8e8-4878-bdf4-ecc23e6bf797",
+            "colId": "28178339-9cd2-4696-bb15-ef34f0729520",
+            "containerId": "",
+            "name": "getall",
+            "url": "http://localhost:8080/estudiantes",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-10-23T21:57:10.934Z",
+            "modified": "2024-10-23T21:57:22.325Z",
+            "headers": []
+        },
+        {
+            "_id": "ea1a39cb-4fc5-46c8-97ff-cca24bc827e2",
+            "colId": "28178339-9cd2-4696-bb15-ef34f0729520",
+            "containerId": "",
+            "name": "getdetalles",
+            "url": "http://localhost:8080/estudiantes/4",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-10-23T21:57:34.621Z",
+            "modified": "2024-10-23T21:57:42.453Z",
+            "headers": []
+        }
+    ],
+    "ref": "tSoYnr2pRmkPqBzRTCqOAvbaZMd4x93abJOX1mKoF4kwc1hhRWigc20lAC0ANg8r3bgfYZXvYBAO6Z95qmtCPA"
+}
